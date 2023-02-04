@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:Sofia Sans Extra Condensed ;
+}
+
+.navbar{
+    top:0;
+    position: sticky;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+ion-icon{
+    font-size: 2.5rem;
+    color:white;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+
+
+.websites{
+   
+    height: 3rem;
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.site-nav{
+    height: 3rem;
+    width: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  
+}
+.nav-button{
+    font-size: 1.5rem;
+    color:white;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    background-color: blue;
+    height: calc(100vh - 4rem);
+
+}
+
+.projects{
+    background-color:orange;
+    height: calc(100vh - 4rem);
+
+}
+
+.connect{
+    background-color: brown;
+    height: calc(100vh - 4rem);
+}
